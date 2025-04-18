@@ -1,0 +1,21 @@
+[project]
+name = "weather-service"
+version = "0.1.0"
+description = "This project is a Python MCP server that provides weather information and other services."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+ "httpx>=0.28.1",
+ "mcp>=1.6.0",
+ "python-dotenv>=1.1.0",
+]
+[[project.authors]]
+name = "Macha_Nai"
+email = "95839522+Macha-Nai@users.noreply.github.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+weather-service = "weather_service:main"
