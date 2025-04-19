@@ -45,7 +45,7 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
       "command": "uv",
       "args": [
         "--directory",
-        "/Users/k20083kk/Kiei/python-mcp/weather_service",
+        "/Users/user_name/weather_service",
         "run",
         "weather_service"
       ]
